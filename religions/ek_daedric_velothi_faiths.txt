@@ -1,0 +1,521 @@
+﻿velothi_faiths = {
+	family = rf_daedra
+	graphical_faith = ek_dunmer_gfx
+
+	doctrine = daedric_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_cultural_identity_heritage_exclusive
+	doctrine = doctrine_liturgical_language_daedric
+
+	#Marriage
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_approval
+	doctrine = doctrine_bastardry_all
+	doctrine = doctrine_consanguinity_cousins #House cohesion would tend to enable related pairings on one hand but you also have to keep strong lineage per Boethiah's teaching. also departure from aldmeri doctrine
+	doctrine = doctrine_marriage_suitable_party_any
+
+	#Crimes
+	doctrine = doctrine_kinslaying_accepted
+	# doctrine = doctrine_kinslaying_shunned
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_crime
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_disallowed
+	doctrine = doctrine_clerical_succession_spiritual_appointment
+
+	### EK Doctrines
+	# doctrine = doctrine_adultery_accepted
+	doctrine = doctrine_adultery_men_crime
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_homosexuality_crime
+	doctrine = doctrine_lycanthropy_outlawed
+	doctrine = doctrine_vampirism_outlawed
+	doctrine = doctrine_necromancy_outlawed
+
+	#Special Doctrine for Velothi Syncretism
+	doctrine = doctrine_main_pantheon_type_polytheism
+	doctrine = doctrine_pantheon_tribunal
+	doctrine = doctrine_sp_none
+	
+	# To avoid listing every single Daedric Prince, is removed at game start
+	doctrine = doctrine_hidden_daedra_shunned
+	doctrine = doctrine_azura_pantheon
+	doctrine = doctrine_boethiah_pantheon
+	doctrine = doctrine_mephala_pantheon
+	doctrine = doctrine_malacath_criminal
+	doctrine = doctrine_mehrunes_criminal
+	doctrine = doctrine_molag_criminal
+	doctrine = doctrine_sheogorath_criminal
+
+	reserved_male_names = {
+		Nerevar Veloth Aralor Felms Roris Olms Delyn Llothis
+	}
+	reserved_female_names = {
+		Rilms Seryn Meris
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_champions" }
+	}
+
+	holy_order_maa = { teutonic_knights }
+
+	localization = {
+		#HighGod
+		HighGodName = god_good_daedra_name
+		HighGodNamePossessive = god_good_daedra_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_THEY
+		HighGodHerselfHimself = CHARACTER_THEMSELVES
+		HighGodHerHis = CHARACTER_HERHIS_THEIR
+		HighGodNameAlternate = god_veloth_name
+		HighGodNameAlternatePossessive = god_veloth_name_possessive
+
+		#Creator
+		CreatorName = god_veloth_name
+		CreatorNamePossessive = god_veloth_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = GET_RANDOM_CUSTOM_BOETHIAH_NAME
+		HealthGodNamePossessive = GET_RANDOM_CUSTOM_BOETHIAH_NAME_POSSESSIVE
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+
+		#FertilityGod
+		FertilityGodName = GET_RANDOM_CUSTOM_BOETHIAH_NAME
+		FertilityGodNamePossessive = GET_RANDOM_CUSTOM_BOETHIAH_NAME_POSSESSIVE
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = GET_RANDOM_CUSTOM_MEPHALA_NAME
+		WealthGodNamePossessive = GET_RANDOM_CUSTOM_MEPHALA_NAME_POSSESSIVE
+		WealthGodSheHe = CHARACTER_SHEHE_SHE
+		WealthGodHerHis = CHARACTER_HERHIS_HER
+		WealthGodHerHim = CHARACTER_HERHIM_HER
+
+		#HouseholdGod
+		HouseholdGodName = GET_RANDOM_CUSTOM_BOETHIAH_NAME
+		HouseholdGodNamePossessive = GET_RANDOM_CUSTOM_BOETHIAH_NAME_POSSESSIVE
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = GET_RANDOM_CUSTOM_AZURA_NAME
+		FateGodNamePossessive = GET_RANDOM_CUSTOM_AZURA_NAME_POSSESSIVE
+		FateGodSheHe = CHARACTER_SHEHE_SHE
+		FateGodHerHis = CHARACTER_HERHIS_HER
+		FateGodHerHim = CHARACTER_HERHIM_HER
+
+		#KnowledgeGod
+		KnowledgeGodName = GET_RANDOM_CUSTOM_AZURA_NAME
+		KnowledgeGodNamePossessive = GET_RANDOM_CUSTOM_AZURA_NAME_POSSESSIVE
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = GET_RANDOM_CUSTOM_MEPHALA_NAME
+		WarGodNamePossessive = GET_RANDOM_CUSTOM_MEPHALA_NAME_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = GET_RANDOM_CUSTOM_MEPHALA_NAME
+		TricksterGodNamePossessive = GET_RANDOM_CUSTOM_MEPHALA_NAME_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = god_mephala_name
+		NightGodNamePossessive = god_mephala_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = god_azura_name
+		WaterGodNamePossessive = god_azura_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
+
+		PantheonTerm = god_good_daedra_name
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			GET_RANDOM_CUSTOM_BOETHIAH_NAME
+			GET_RANDOM_CUSTOM_AZURA_NAME
+			GET_RANDOM_CUSTOM_MEPHALA_NAME
+			god_veloth_name
+			god_good_daedra_name
+		}
+		DevilName = god_house_of_troubles_name
+		DevilNamePossessive = god_house_of_troubles_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		EvilGodNames = {
+			god_house_of_troubles_name
+			god_four_corners_name
+			god_molag_name
+			god_mehrunes_name
+			god_malacath_name
+			god_sheogorath_name
+		}
+		HouseOfWorship = velothihouse_of_worship
+		HouseOfWorshipPlural = velothihouse_of_worship_plural
+		ReligiousSymbol = velothireligious_symbol
+		ReligiousText = velothireligious_text
+		ReligiousHeadName = velothireligious_head_title
+		ReligiousHeadTitleName = velothireligious_head_title_name
+		DevoteeMale = velothidevotee
+		DevoteeMalePlural = velothidevotee_plural
+		DevoteeFemale = velothidevotee
+		DevoteeFemalePlural = velothidevotee_plural
+		DevoteeNeuter = velothidevotee
+		DevoteeNeuterPlural = velothidevotee_plural
+		PriestMale = velothipriest
+		PriestMalePlural = velothipriest_plural
+		PriestFemale = velothipriest
+		PriestFemalePlural = velothipriest_plural
+		PriestNeuter = velothipriest
+		PriestNeuterPlural = velothipriest_plural
+		AltPriestTermPlural = velothipriest_alternate_plural
+		BishopMale = velothibishop
+		BishopMalePlural = velothibishop_plural
+		BishopFemale = velothibishop
+		BishopFemalePlural = velothibishop_plural
+		BishopNeuter = velothibishop
+		BishopNeuterPlural = velothibishop_plural
+		DivineRealm = godplace_name
+		PositiveAfterLife = oblivion_name
+		NegativeAfterLife = thisworld_name
+		DeathDeityName = god_ancestor_name
+		DeathDeityNamePossessive = god_ancestor_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_THEY
+		DeathDeityHerHis = CHARACTER_HERHIS_THEIR
+		WitchGodName = god_sharmat_name
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+
+		GHWName = ghw_crusade
+		GHWNamePlural = ghw_crusades
+	}
+
+	piety_icon_group = "islam"
+
+	faiths = {
+		tribunal_temple = {
+			color = { 0.49 0.26 0.0 }
+			icon = Tribunal_Temple
+
+			# holy_site = hs_shrine_of_humility
+			# holy_site = hs_shrine_of_daring
+			# holy_site = hs_shrine_of_generosity
+			# holy_site = hs_shrine_of_courtesy
+			# holy_site = hs_shrine_of_justice
+			# holy_site = hs_shrine_of_valor
+			# holy_site = hs_maar_gan
+			# holy_site = hs_first_corner
+			# holy_site = hs_second_corner
+			# holy_site = hs_third_corner
+			# holy_site = hs_fourth_corner
+			# holy_site = hs_mount_kand
+
+			religious_head = e_tribunal_temple
+			
+			# Doctrines
+			doctrine = doctrine_azura_allowed
+			doctrine = doctrine_boethiah_allowed
+			doctrine = doctrine_mephala_allowed
+
+			doctrine = doctrine_pantheon_tribunal
+	
+			doctrine = doctrine_virtue_brave
+			doctrine = doctrine_virtue_deceitful
+			doctrine = doctrine_virtue_arrogant
+			doctrine = doctrine_sin_craven
+			doctrine = doctrine_sin_lazy
+			doctrine = doctrine_sin_forgiving
+			
+			#Tenets
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_living_gods
+			doctrine = tenet_communion
+			
+			###EK NOTE: Apparently you can only have one holy_order_maa per religion
+			#holy_order_maa = { teutonic_knights } #Replace with Ordinators
+			
+			holy_order_names = {
+				{ name = "holy_order_dunmer" }
+			}
+
+			localization = {
+				#HighGod
+				HighGodName = god_tribunal_name
+				HighGodNamePossessive = god_tribunal_name_possessive
+				
+				#HealthGod
+				HealthGodName = god_almalexia_name
+				HealthGodNamePossessive = god_almalexia_name_possessive
+
+				#FertilityGod
+				FertilityGodName = god_almalexia_name
+				FertilityGodNamePossessive = god_almalexia_name_possessive
+
+				#WealthGod
+				WealthGodName = god_vivec_name
+				WealthGodNamePossessive = god_vivec_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = god_almalexia_name
+				HouseholdGodNamePossessive = god_almalexia_name_possessive
+
+				#FateGod
+				FateGodName = god_sothasil_name
+				FateGodNamePossessive = god_sothasil_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_HE
+				FateGodHerHis = CHARACTER_HERHIS_HIS
+				FateGodHerHim = CHARACTER_HERHIM_HIM
+
+				#KnowledgeGod
+				KnowledgeGodName = god_sothasil_name
+				KnowledgeGodNamePossessive = god_sothasil_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WarGod
+				WarGodName = god_vivec_name
+				WarGodNamePossessive = god_vivec_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#TricksterGod
+				TricksterGodName = god_vivec_name
+				TricksterGodNamePossessive = god_vivec_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = god_vivec_name
+				NightGodNamePossessive = god_vivec_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WaterGod
+				WaterGodName = god_azura_name
+				WaterGodNamePossessive = god_azura_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+
+				PantheonTerm = god_tribunal_name
+				PantheonTermHasHave = pantheon_term_has
+				GoodGodNames = {
+					GET_RANDOM_CUSTOM_BOETHIAH_NAME
+					GET_RANDOM_CUSTOM_AZURA_NAME
+					GET_RANDOM_CUSTOM_MEPHALA_NAME
+					god_veloth_name
+					god_good_daedra_name
+				}
+				DevilName = god_house_of_troubles_name
+				DevilNamePossessive = god_house_of_troubles_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_IT
+				DevilHerHis = CHARACTER_HERHIS_ITS
+				DevilHerselfHimself = CHARACTER_ITSELF
+				EvilGodNames = {
+					god_house_of_troubles_name
+					god_four_corners_name
+					god_molag_name
+					god_mehrunes_name
+					god_malacath_name
+					god_sheogorath_name
+				}
+				HouseOfWorship = velothihouse_of_worship
+				HouseOfWorshipPlural = velothihouse_of_worship_plural
+				ReligiousSymbol = velothireligious_symbol
+				ReligiousText = tribunalreligious_text
+				ReligiousHeadName = tribunalreligious_head_title
+				ReligiousHeadTitleName = tribunalreligious_head_title_name
+				DevoteeMale = velothidevotee
+				DevoteeMalePlural = velothidevotee_plural
+				DevoteeFemale = velothidevotee
+				DevoteeFemalePlural = velothidevotee_plural
+				DevoteeNeuter = velothidevotee
+				DevoteeNeuterPlural = velothidevotee_plural
+				PriestMale = velothipriest
+				PriestMalePlural = velothipriest_plural
+				PriestFemale = velothipriest
+				PriestFemalePlural = velothipriest_plural
+				PriestNeuter = velothipriest
+				PriestNeuterPlural = velothipriest_plural
+				AltPriestTermPlural = velothipriest_alternate_plural
+				BishopMale = velothibishop
+				BishopMalePlural = velothibishop_plural
+				BishopFemale = velothibishop
+				BishopFemalePlural = velothibishop_plural
+				BishopNeuter = velothibishop
+				BishopNeuterPlural = velothibishop_plural
+				DivineRealm = godplace_name
+				PositiveAfterLife = oblivion_name
+				NegativeAfterLife = thisworld_name
+				DeathDeityName = god_ancestor_name
+				DeathDeityNamePossessive = god_ancestor_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_THEY
+				DeathDeityHerHis = CHARACTER_HERHIS_THEIR
+				WitchGodName = god_sharmat_name
+				WitchGodHerHis = CHARACTER_HERHIS_HIS
+				WitchGodSheHe = CHARACTER_SHEHE_HE
+				WitchGodHerHim = CHARACTER_HERHIM_HIM
+				WitchGodMistressMaster = master
+				WitchGodMotherFather = father
+
+
+				GHWName = ghw_crusade
+				GHWNamePlural = ghw_crusades
+			}
+		}
+		# tribunal_cult = {
+		# 	color = { 0.45 0.20 0.0 }
+		# 	icon = Tribunal_Cult
+
+		# 	religious_head = e_tribunal_temple
+			
+		# 	# Doctrines
+		# 	doctrine = doctrine_azura_allowed
+		# 	doctrine = doctrine_boethiah_allowed
+		# 	doctrine = doctrine_mephala_allowed
+
+		# 	doctrine = doctrine_pantheon_tribunal
+
+		# 	#Tenets
+		# 	doctrine = tenet_ancestor_worship
+		# 	doctrine = tenet_living_gods
+		# 	doctrine = tenet_adaptive
+
+		# }
+		old_velothi = {
+			color = { 0.67 0.58 0.42 }
+			icon = velothi
+
+			doctrine = doctrine_pluralism_fundamentalist
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_clerical_gender_female_only
+			doctrine = doctrine_consanguinity_restricted #harsher version of Boethiah's injunction, gotta keep Molag Bal away
+			
+			doctrine = doctrine_pantheon_good_daedra
+
+			doctrine = doctrine_cultural_identity_culture_exclusive
+	
+			doctrine = doctrine_virtue_brave
+			doctrine = doctrine_virtue_deceitful
+			doctrine = doctrine_virtue_arrogant
+			doctrine = doctrine_sin_craven
+			doctrine = doctrine_sin_lazy
+			doctrine = doctrine_sin_forgiving
+
+			#Tenets
+			doctrine = tenet_esotericism
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_false_conversion_sanction
+		}
+		nerevarine = {
+			color = { 1.0 0.77 0.37 }
+			icon = nerevar
+
+			doctrine = doctrine_pluralism_fundamentalist
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_clerical_gender_female_only
+
+			doctrine = doctrine_pantheon_nerevar
+	
+			doctrine = doctrine_virtue_brave
+			doctrine = doctrine_virtue_deceitful
+			doctrine = doctrine_virtue_arrogant
+			doctrine = doctrine_sin_craven
+			doctrine = doctrine_sin_lazy
+			doctrine = doctrine_sin_forgiving
+
+			#Tenets
+			doctrine = tenet_esotericism
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_false_conversion_sanction
+		}
+		sixth_house = {
+			color = { 0.75 1.0 0.95 }
+			icon = Dagoth
+			
+			doctrine = doctrine_pluralism_fundamentalist
+			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_kinslaying_shunned
+			doctrine = doctrine_consanguinity_restricted #harsher version of Boethiah's injunction, gotta keep Molag Bal away
+			
+			doctrine = doctrine_pantheon_nerevar
+	
+			doctrine = doctrine_virtue_brave
+			doctrine = doctrine_virtue_deceitful
+			doctrine = doctrine_virtue_arrogant
+			doctrine = doctrine_sin_craven
+			doctrine = doctrine_sin_lazy
+			doctrine = doctrine_sin_forgiving
+
+			#Tenets
+			doctrine = tenet_communal_identity
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_divine_disease
+		}
+		cantemiric_sect = {
+			color = { 1.0 0.37 0.77 }
+			icon = cantemiric_velothi
+			
+			doctrine = doctrine_pluralism_fundamentalist
+			doctrine = doctrine_witchcraft_accepted
+			
+			doctrine = doctrine_pantheon_good_daedra
+
+			doctrine = doctrine_cultural_identity_culture_exclusive
+	
+			doctrine = doctrine_virtue_brave
+			doctrine = doctrine_virtue_deceitful
+			doctrine = doctrine_virtue_arrogant
+			doctrine = doctrine_sin_craven
+			doctrine = doctrine_sin_lazy
+			doctrine = doctrine_sin_forgiving
+			
+			#Tenets
+			doctrine = tenet_esotericism
+			doctrine = tenet_inner_journey
+			doctrine = tenet_pastoral_isolation #EK TODO: Replace with Hist Syncretism?
+		}
+	}
+}

@@ -1,0 +1,453 @@
+﻿malacath_religion = {
+	family = rf_daedra
+	graphical_faith = pagan_gfx
+
+	doctrine = daedric_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+	doctrine = doctrine_marriage_suitable_party_any
+
+	#Crimes
+	doctrine = doctrine_kinslaying_accepted
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+	
+	### EK Doctrines
+	# doctrine = doctrine_adultery_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_homosexuality_crime
+	doctrine = doctrine_lycanthropy_outlawed
+	doctrine = doctrine_vampirism_outlawed
+	doctrine = doctrine_necromancy_pragmatic
+
+	#Special Doctrine for Malacath Syncretism
+	doctrine = doctrine_main_pantheon_type_daedric_prince
+	doctrine = doctrine_pantheon_malacath
+	doctrine = doctrine_sp_none
+	
+	doctrine = doctrine_hidden_daedra_allowed
+	doctrine = doctrine_malacath_pantheon
+
+	reserved_male_names = {
+		
+	}
+	reserved_female_names = {
+		
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_cultists" }
+		{ name = "holy_order_agra_crun" }
+		{ name = "holy_order_wrathful_flame" }
+	}
+
+	holy_order_maa = { teutonic_knights }
+
+	localization = {
+		#HighGod
+		HighGodName = GET_RANDOM_MALACATH_NAME
+		HighGodNamePossessive = GET_RANDOM_MALACATH_NAME_POSSESSIVE
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = GET_RANDOM_MALACATH_NAME
+		HighGodNameAlternatePossessive = GET_RANDOM_MALACATH_NAME_POSSESSIVE
+
+		#Creator
+		CreatorName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		CreatorNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		HealthGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#FertilityGod
+		FertilityGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		FertilityGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		FertilityGodSheHe = CHARACTER_SHEHE_HE
+		FertilityGodHerHis = CHARACTER_HERHIS_HIS
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WealthGod
+		WealthGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		WealthGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		HouseholdGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FateGod
+		FateGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		FateGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
+
+		#KnowledgeGod
+		KnowledgeGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		KnowledgeGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		WarGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		TricksterGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		NightGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = GET_RANDOM_CUSTOM_MALACATH_NAME
+		WaterGodNamePossessive = GET_RANDOM_CUSTOM_MALACATH_NAME_POSSESSIVE
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+		PantheonTerm = GET_RANDOM_MALACATH_NAME
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			GET_RANDOM_MALACATH_NAME
+			GET_RANDOM_CUSTOM_MALACATH_NAME
+		}
+		DevilName = malacath_devil_name
+		DevilNamePossessive = malacath_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_SHE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = {
+			malacath_devil_name
+			malacath_evil_god_lucifer
+			malacath_evil_god_beelzebub
+			malacath_evil_god_mephistopheles
+		}
+		HouseOfWorship = malacath_house_of_worship
+		HouseOfWorshipPlural = malacath_house_of_worship_plural
+		ReligiousSymbol = malacath_religious_symbol
+		ReligiousText = malacath_religious_text
+		ReligiousHeadName = malacath_religious_head_title
+		ReligiousHeadTitleName = malacath_religious_head_title_name
+		DevoteeMale = malacath_devotee_male
+		DevoteeMalePlural = malacath_devotee_male_plural
+		DevoteeFemale = malacath_devotee_female
+		DevoteeFemalePlural = malacath_devotee_female_plural
+		DevoteeNeuter = malacath_devotee_neuter
+		DevoteeNeuterPlural = malacath_devotee_neuter_plural
+		PriestMale = malacath_priest_male
+		PriestMalePlural = malacath_priest_male_plural
+		PriestFemale = malacath_priest_male
+		PriestFemalePlural = malacath_priest_male_plural
+		PriestNeuter = malacath_priest_male
+		PriestNeuterPlural = malacath_priest_male_plural
+		AltPriestTermPlural = malacath_priest_alternate_plural
+		BishopMale = malacath_bishop
+		BishopMalePlural = malacath_bishop_plural
+		BishopFemale = malacath_bishop
+		BishopFemalePlural = malacath_bishop_plural
+		BishopNeuter = malacath_bishop
+		BishopNeuterPlural = malacath_bishop_plural
+		DivineRealm = malacath_positive_afterlife
+		PositiveAfterLife = malacath_positive_afterlife
+		NegativeAfterLife = malacath_negative_afterlife
+		DeathDeityName = malacath_death_deity_name
+		DeathDeityNamePossessive = malacath_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = god_ebonarm_name
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+		
+		GHWName = ghw_crusade
+		GHWNamePlural = ghw_crusades
+	}
+	
+	piety_icon_group = "islam"
+
+	faiths = {
+		### EK NOTE: Each Malacath faith should get some unique holy sites at one point
+		# For now we should make sure that every Daedric cult has 5 unique holy site
+		malacath_cult = { #Generic Malacath faith
+			color = { 0.2 0.60 0.2 }
+			icon = malacath2
+			
+			# holy_site = hs_duskwatch
+			# holy_site = hs_giant_grove
+			# holy_site = hs_fahrun
+			# holy_site = hs_abamath
+			
+			doctrine = doctrine_cultural_identity_none
+
+			doctrine = doctrine_virtue_brave
+			doctrine = doctrine_virtue_wrathful
+			doctrine = doctrine_virtue_vengeful
+			doctrine = doctrine_sin_craven
+			doctrine = doctrine_sin_deceitful
+			doctrine = doctrine_sin_forgiving
+			
+			#Tenets
+			doctrine = tenet_warmonger
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_contempt_for_the_weak
+		}
+		
+		code_of_malacath = { #Orcish Malacath faith
+			color = { 0.2 0.40 0.2 }
+			icon = malacath
+			
+			# holy_site = hs_duskwatch
+			# holy_site = hs_giant_grove
+			# holy_site = hs_fahrun
+			# holy_site = hs_abamath
+			
+			doctrine = doctrine_gender_male_dominated
+			doctrine = doctrine_cultural_identity_heritage_exclusive
+			doctrine = doctrine_clerical_marriage_disallowed
+			doctrine = doctrine_clerical_gender_female_only
+			doctrine = doctrine_polygamy
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_marriage_suitable_party_one_landed
+
+			doctrine = doctrine_virtue_brave
+			doctrine = doctrine_virtue_wrathful
+			doctrine = doctrine_virtue_vengeful
+			doctrine = doctrine_sin_craven
+			doctrine = doctrine_sin_deceitful
+			doctrine = doctrine_sin_forgiving
+			
+			#Tenets
+			doctrine = tenet_legalism # It's literally called *Code* of Malacath
+			doctrine = tenet_contempt_for_the_weak
+			doctrine = tenet_unrelenting_faith
+		}
+		
+		goblin_shamanism = { #Goblin Shamanism Faith
+			color = { 0.2 0.50 0.2 }
+			icon = goblin
+			
+			# holy_site = hs_duskwatch
+			# holy_site = hs_giant_grove
+			# holy_site = hs_fahrun
+			# holy_site = hs_abamath
+			
+			doctrine = doctrine_cultural_identity_heritage_exclusive
+			
+			#Tenets
+			doctrine = tenet_esotericism
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_contempt_for_the_weak
+
+			doctrine = doctrine_virtue_brave
+			doctrine = doctrine_virtue_wrathful
+			doctrine = doctrine_virtue_vengeful
+			doctrine = doctrine_sin_craven
+			doctrine = doctrine_sin_deceitful
+			doctrine = doctrine_sin_forgiving
+			
+			localization = {
+				# #HighGod
+				# HighGodName = god_muluk_name
+				# HighGodNamePossessive = god_muluk_name_possessive
+				# HighGodNameSheHe = CHARACTER_SHEHE_HE
+				# HighGodHerselfHimself = CHARACTER_HIMSELF
+				# HighGodHerHis = CHARACTER_HERHIS_HIS
+				# HighGodNameAlternate = god_bluegod_name
+				# HighGodNameAlternatePossessive = god_bluegod_name_possessive
+
+				# #Creator
+				# CreatorName = god_muluk_name
+				# CreatorNamePossessive = god_muluk_name_possessive
+				# CreatorSheHe = CHARACTER_SHEHE_HE
+				# CreatorHerHis = CHARACTER_HERHIS_HIS
+				# CreatorHerHim = CHARACTER_HERHIM_HIM
+				
+				# #HealthGod
+				# HealthGodName = god_muluk_name
+				# HealthGodNamePossessive = god_muluk_name_possessive
+				# HealthGodSheHe = CHARACTER_SHEHE_HE
+				# HealthGodHerHis = CHARACTER_HERHIS_HIS
+				# HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+				# #FertilityGod
+				# FertilityGodName = god_muluk_name
+				# FertilityGodNamePossessive = god_muluk_name_possessive
+				# FertilityGodSheHe = CHARACTER_SHEHE_HE
+				# FertilityGodHerHis = CHARACTER_HERHIS_HIS
+				# FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+				# #WealthGod
+				# WealthGodName = god_muluk_name
+				# WealthGodNamePossessive = god_muluk_name_possessive
+				# WealthGodSheHe = CHARACTER_SHEHE_HE
+				# WealthGodHerHis = CHARACTER_HERHIS_HIS
+				# WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				# #HouseholdGod
+				# HouseholdGodName = god_muluk_name
+				# HouseholdGodNamePossessive = god_muluk_name_possessive
+				# HouseholdGodSheHe = CHARACTER_SHEHE_HE
+				# HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+				# HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+				# #FateGod
+				# FateGodName = god_muluk_name
+				# FateGodNamePossessive = god_muluk_name_possessive
+				# FateGodSheHe = CHARACTER_SHEHE_HE
+				# FateGodHerHis = CHARACTER_HERHIS_HIS
+				# FateGodHerHim = CHARACTER_HERHIM_HIM
+		
+				# #KnowledgeGod
+				# KnowledgeGodName = god_muluk_name
+				# KnowledgeGodNamePossessive = god_muluk_name_possessive
+				# KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+				# KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+				# KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+				# #WarGod
+				# WarGodName = god_muluk_name
+				# WarGodNamePossessive = god_muluk_name_possessive
+				# WarGodSheHe = CHARACTER_SHEHE_HE
+				# WarGodHerHis = CHARACTER_HERHIS_HIS
+				# WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				# #TricksterGod
+				# TricksterGodName = god_muluk_name
+				# TricksterGodNamePossessive = god_muluk_name_possessive
+				# TricksterGodSheHe = CHARACTER_SHEHE_HE
+				# TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				# TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				# #NightGod
+				# NightGodName = god_muluk_name
+				# NightGodNamePossessive = god_muluk_name_possessive
+				# NightGodSheHe = CHARACTER_SHEHE_HE
+				# NightGodHerHis = CHARACTER_HERHIS_HIS
+				# NightGodHerHim = CHARACTER_HERHIM_HIM
+
+				# #WaterGod
+				# WaterGodName = god_muluk_name
+				# WaterGodNamePossessive = god_muluk_name_possessive
+				# WaterGodSheHe = CHARACTER_SHEHE_HE
+				# WaterGodHerHis = CHARACTER_HERHIS_HIS
+				# WaterGodHerHim = CHARACTER_HERHIM_HIM
+				
+				HouseOfWorship = goblin_house_of_worship
+				HouseOfWorshipPlural = goblin_house_of_worship_plural
+				ReligiousSymbol = goblin_religious_symbol
+				ReligiousText = goblin_religious_text
+				ReligiousHeadName = goblin_religious_head_title
+				ReligiousHeadTitleName = goblin_religious_head_title_name
+				DevoteeMale = goblin_devotee
+				DevoteeMalePlural = goblin_devotee_plural
+				DevoteeFemale = goblin_devotee
+				DevoteeFemalePlural = goblin_devotee_plural
+				DevoteeNeuter = goblin_devotee
+				DevoteeNeuterPlural = goblin_devotee_plural
+				PriestMale = goblin_priest
+				PriestMalePlural = goblin_priest_plural
+				PriestFemale = goblin_priest
+				PriestFemalePlural = goblin_priest_plural
+				PriestNeuter = goblin_priest
+				PriestNeuterPlural = goblin_priest_plural
+				AltPriestTermPlural = goblin_priest_plural
+				BishopMale = goblin_bishop
+				BishopMalePlural = goblin_bishop_plural
+				BishopFemale = goblin_bishop
+				BishopFemalePlural = goblin_bishop_plural
+				BishopNeuter = goblin_bishop
+				BishopNeuterPlural = goblin_bishop_plural
+				
+				DivineRealm = ashpit_name
+				PositiveAfterLife = ashpit_name
+				NegativeAfterLife = ashpit_name
+				DeathDeityName = god_muluk_name
+				DeathDeityNamePossessive = god_muluk_name_possessive
+			}
+		}
+		
+		malacath_brutal_breed = { # Formed after the fall of Orsinium around 1E1000, believes that every Breton and Redguard should be slaughtered
+			color = { 0.4 0.60 0.2 }
+			icon = malacath3
+			
+			# holy_site = hs_duskwatch
+			# holy_site = hs_giant_grove
+			# holy_site = hs_fahrun
+			# holy_site = hs_abamath
+			
+			doctrine = doctrine_cultural_identity_heritage_exclusive
+			doctrine = doctrine_marriage_suitable_party_one_landed
+
+			doctrine = doctrine_virtue_brave
+			doctrine = doctrine_virtue_wrathful
+			doctrine = doctrine_virtue_vengeful
+			doctrine = doctrine_sin_craven
+			doctrine = doctrine_sin_deceitful
+			doctrine = doctrine_sin_forgiving
+			
+			# Doctrines
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_gender_male_dominated
+			doctrine = doctrine_pluralism_fundamentalist
+			
+			#Tenets
+			doctrine = tenet_warmonger
+			doctrine = tenet_contempt_for_the_weak
+			
+			# Gruesome Festivals, else Human Sacrifice.
+			doctrine_selection_pair = {
+				requires_dlc_flag = the_northern_lords
+				doctrine = tenet_gruesome_festivals
+				fallback_doctrine = tenet_human_sacrifice
+			}
+		}
+	}
+}

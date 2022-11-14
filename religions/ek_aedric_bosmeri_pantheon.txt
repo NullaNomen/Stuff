@@ -1,0 +1,315 @@
+﻿bosmeri_religion = {
+	family = rf_aedra
+	graphical_faith = nedic_bretic_gfx
+	doctrine = aedric_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_cultural_identity_heritage
+
+	#Marriage
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_cousins #the Camoran couldn't have stayed at the top without some marriage alliances
+	doctrine = doctrine_marriage_suitable_party_any
+
+	#Crimes
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_accepted
+	doctrine = doctrine_witchcraft_shunned
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+	
+	### EK Doctrines
+	# doctrine = doctrine_adultery_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_homosexuality_crime
+	doctrine = doctrine_lycanthropy_outlawed
+	doctrine = doctrine_vampirism_pragmatic
+	doctrine = doctrine_necromancy_outlawed
+
+	doctrine = doctrine_main_pantheon_type_polytheism
+	doctrine = doctrine_pantheon_green_pact
+	doctrine = doctrine_sp_none
+
+	doctrine = doctrine_hidden_daedra_criminal
+	doctrine = doctrine_hermaeus_allowed
+
+	reserved_male_names = {
+		
+	}
+	reserved_female_names = {
+		
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_green_wardens" }
+		{ name = "holy_order_stags_of_zen" }
+		{ name = "holy_order_brackenleaf_briars" }
+		{ name = "holy_order_guardians_of_divinerealm" }
+		{ name = "holy_order_warriors" }
+	}
+
+	holy_order_maa = { bosmer_stalkers }
+
+	localization = {
+		#HighGod
+		HighGodName = god_yffre_name
+		HighGodNamePossessive = god_yffre_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = god_valenwood_name
+		HighGodNameAlternatePossessive = god_valenwood_name_possessive
+
+		#Creator
+		CreatorName = god_auriel_name
+		CreatorNamePossessive = god_auriel_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = god_arkay_name
+		HealthGodNamePossessive = god_arkay_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#FertilityGod
+		FertilityGodName = god_mara_name
+		FertilityGodNamePossessive = god_mara_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = god_zen_name
+		WealthGodNamePossessive = god_zen_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = god_stendarr_name
+		HouseholdGodNamePossessive = god_stendarr_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FateGod
+		FateGodName = god_valenwood_name
+		FateGodNamePossessive = god_valenwood_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+
+		#KnowledgeGod
+		KnowledgeGodName = god_xarxes_name
+		KnowledgeGodNamePossessive = god_xarxes_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = god_valenwood_name
+		WarGodNamePossessive = god_valenwood_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_THEY
+		WarGodHerHis = CHARACTER_HERHIS_THEIR
+		WarGodHerHim = CHARACTER_HERHIM_THEM
+
+		#TricksterGod
+		TricksterGodName = god_baandar_name
+		TricksterGodNamePossessive = god_baandar_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = god_bosmermoons_name
+		NightGodNamePossessive = god_bosmermoons_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_THEY
+		NightGodHerHis = CHARACTER_HERHIS_THEIR
+		NightGodHerHim = CHARACTER_HERHIM_THEM
+
+		#WaterGod
+		WaterGodName = god_valenwood_name
+		WaterGodNamePossessive = god_valenwood_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_THEY
+		WaterGodHerHis = CHARACTER_HERHIS_THEIR
+		WaterGodHerHim = CHARACTER_HERHIM_THEM
+
+		PantheonTerm = god_the_gods_name
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = {
+			god_auriel_name
+			god_yffre_name
+			god_green_name
+			god_valenwood_name
+			god_xarxes_name
+			god_arkay_name
+			god_mara_name
+			god_stendarr_name
+			god_zen_name
+			god_bosmermoons_name
+			god_baandar_name
+		}
+		DevilName = oathbreakers_name
+		DevilNamePossessive = oathbreakers_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_THEY
+		DevilHerHis = CHARACTER_HERHIS_THEIR
+		DevilHerselfHimself = CHARACTER_THEMSELF
+		EvilGodNames = {
+			oathbreakers_name
+			god_lorkhan_name
+			god_daedric_princes_name
+		}
+		HouseOfWorship = greenpact_house_of_worship
+		HouseOfWorshipPlural = greenpact_house_of_worship_plural
+		ReligiousSymbol = greenpact_religious_symbol
+		ReligiousText = greenpact_religious_text
+		ReligiousHeadName = greenpact_religious_head_title
+		ReligiousHeadTitleName = greenpact_religious_head_title_name
+		DevoteeMale = greenpact_devotee
+		DevoteeMalePlural = greenpact_devotee_plural
+		DevoteeFemale = greenpact_devotee
+		DevoteeFemalePlural = greenpact_devotee_plural
+		DevoteeNeuter = greenpact_devotee
+		DevoteeNeuterPlural = greenpact_devotee_plural
+		PriestMale = greenpact_priest
+		PriestMalePlural = greenpact_priest_plural
+		PriestFemale = greenpact_priest
+		PriestFemalePlural = greenpact_priest_plural
+		PriestNeuter = greenpact_priest
+		PriestNeuterPlural = greenpact_priest_plural
+		AltPriestTermPlural = greenpact_priest_plural
+		BishopMale = greenpact_bishop
+		BishopMalePlural = greenpact_bishop_plural
+		BishopFemale = greenpact_bishop
+		BishopFemalePlural = greenpact_bishop_plural
+		BishopNeuter = greenpact_bishop
+		BishopNeuterPlural = greenpact_bishop_plural
+		DivineRealm = aetherius_name
+		PositiveAfterLife = aetherius_name
+		NegativeAfterLife = ooze_name
+		DeathDeityName = god_arkay_name
+		DeathDeityNamePossessive = god_arkay_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = god_hircine_name
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+
+		GHWName = ghw_crusade
+		GHWNamePlural = ghw_crusades
+
+	}
+	
+	piety_icon_group = "pagan"
+	  
+	faiths = {
+		greenpact = {
+			color = { 0.18 0.45 0.00 }
+			icon = greenpact
+			religious_head = k_green_pact
+
+			doctrine = doctrine_virtue_fickle
+			doctrine = doctrine_virtue_just
+			doctrine = doctrine_virtue_gregarious
+			doctrine = doctrine_sin_stubborn
+			doctrine = doctrine_sin_arbitrary
+			doctrine = doctrine_sin_shy
+
+			#Tenets
+			doctrine = tenet_green_pact
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_pastoral_isolation
+		}
+	
+		vineduskpact = {
+			color = { 0.87 0.67 0.27 }
+			icon = vineduskpact
+			religious_head = k_green_pact
+			
+			doctrine = doctrine_lycanthropy_pragmatic
+			doctrine = doctrine_necromancy_pragmatic
+			
+			doctrine = doctrine_hidden_daedra_shunned
+
+			doctrine = doctrine_virtue_fickle
+			doctrine = doctrine_virtue_just
+			doctrine = doctrine_virtue_gregarious
+			doctrine = doctrine_sin_stubborn
+			doctrine = doctrine_sin_arbitrary
+			doctrine = doctrine_sin_shy
+
+			#Tenets
+			doctrine = tenet_pastoral_isolation
+			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_unrelenting_faith
+		}
+		
+		blacksapmovement = {
+			color = { 0.06 0.09 0.04 }
+			icon = blacksapmovement
+			religious_head = k_green_pact
+			
+			doctrine = doctrine_pluralism_fundamentalist
+			doctrine = doctrine_cultural_identity_heritage_exclusive
+
+			doctrine = doctrine_virtue_fickle
+			doctrine = doctrine_virtue_just
+			doctrine = doctrine_virtue_gregarious
+			doctrine = doctrine_sin_stubborn
+			doctrine = doctrine_sin_arbitrary
+			doctrine = doctrine_sin_shy
+
+			#Tenets
+			doctrine = tenet_green_pact
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_religious_legal_pronouncements
+		}
+		
+		wilderking = {
+			color = { 0.0 0.30 0.0 }
+			icon = wilderking
+			religious_head = k_wilderking_court
+
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_virtue_fickle
+			doctrine = doctrine_virtue_just
+			doctrine = doctrine_virtue_gregarious
+			doctrine = doctrine_sin_stubborn
+			doctrine = doctrine_sin_arbitrary
+			doctrine = doctrine_sin_shy
+
+			#Tenets
+			doctrine = tenet_green_pact
+			doctrine = tenet_living_gods
+			doctrine = tenet_pastoral_isolation
+			
+			localization = {
+			ReligiousHeadName = wilderking_religious_head_title
+			ReligiousHeadTitleName = wilderking_religious_head_title_name
+			}
+			
+		}
+	}
+}
